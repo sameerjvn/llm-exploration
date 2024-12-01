@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "llm-exploration"
+version = "0.1.0"
+description = "Exploration of fine-tuning of LLMs"
+authors = ["Sameer Jathavedan <sameerjvn.tech@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.12"
+transformers = "*"
+torch = "*"
+ipykernel = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
