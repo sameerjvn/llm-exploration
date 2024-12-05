@@ -10,6 +10,14 @@ python = ">3.12"
 transformers = "*"
 torch = "*"
 ipykernel = "*"
+protobuf = "*"
+tiktoken = "*"
+blobfile = "*"
+sentencepiece = "*"
+accelerate = ">=0.26.0"
+
+[tool.poetry.group.dev.dependencies]
+huggingface_hub = "*"
 
 
 [build-system]
